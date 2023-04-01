@@ -266,4 +266,23 @@ footer{
         max-width: none;
     }
 }
+@media(max-width: 825px){
+    .email{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+
+    }
+    .email input, .email label{
+        width: 100%;
+    }
+    .email label{
+        margin-top: 20px;
+    }
+    #sec-4{
+        padding: 50px;
+        flex-direction: column;
+        margin: 0;
+    }
+}
 /* --/-- SECTION-4 END --/--  */
